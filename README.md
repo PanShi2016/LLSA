@@ -22,7 +22,7 @@ $ LLSA(k,alpha)
 ```
 ### Command Options:
 
-k: number of random walk steps (default: 4)
+k: number of Lanczos iteration (default: 4)
 
 alpha: a parameter controls local minimal conductance (default: 1.03)
 ## Announcements
@@ -37,5 +37,6 @@ Please email to panshi@hust.edu.cn or setup an issue if you have any problems or
 
 ### Acknowledgement
 In the program, we incorporate some open source codes as baseline algorithms from the following websites:
+- [LOSP](https://github.com/KunHe2015/LOSP)
 - [HK](https://github.com/kkloste/hkgrow)
 - [PR](https://www.cs.purdue.edu/homes/dgleich/codes/neighborhoods/)
