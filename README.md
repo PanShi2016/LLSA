@@ -1,5 +1,5 @@
 # LLSA
-These codes are for our paper "Local Lanczos Spectral Approximation for Membership Identification"
+These codes are for our paper "Local Lanczos Spectral Approximation for Community Detection"
 ## Requirements
 Before compiling codes, the following software should be installed in your system.
 - Matlab
