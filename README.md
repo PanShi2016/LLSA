@@ -35,6 +35,17 @@ You should have received a copy of the GNU General Public License along with thi
 ### Notification
 Please email to panshi@hust.edu.cn or setup an issue if you have any problems or find any bugs.
 
+Please cite our papers if you use the codes in your paper:
+```
+@inproceedings{shi2017local,
+    author={Shi, Pan and He, Kun and Bindel, David and Hopcroft, John E},
+    title={Local Lanczos Spectral Approximation for Community Detection},
+    booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+    pages={651--667},
+    year={2017},
+    organization={Springer}
+    } 
+```
 ### Acknowledgement
 In the program, we incorporate some open source codes as baseline algorithms from the following websites:
 - [LOSP](https://github.com/KunHe2015/LOSP)
