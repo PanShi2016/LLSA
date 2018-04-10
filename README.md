@@ -12,7 +12,7 @@ Before compiling codes, the following software should be installed in your syste
 - nodes: 334863, edges: 925872 
 - nodes are products, edges are co-purchase relationships
 - top 5000 communities with ground truth size >= 3
-## How to run
+## How to run LLSA algorithm
 ```
 $ cd LLSA_codes 
 $ matlab 
@@ -20,11 +20,32 @@ $ mex -largeArrayDims GetLocalCond.c   % compile the mex file
 $ mex -largeArrayDims hkgrow_mex.cpp   % compile the mex file 
 $ LLSA(k,alpha) 
 ```
-### Command Options:
+### Command Options for LLSA algorithm:
 
 k: number of Lanczos iteration (default: 4)
 
 alpha: a parameter controls local minimal conductance (default: 1.03)
+## How to run baseline algorithms
+### run LOSP algorithm
+```
+$ cd LOSP_codes 
+$ matlab 
+$ LOSP
+```
+### run HK algorithm
+```
+$ cd baseline_codes/HK
+$ matlab 
+$ mex -largeArrayDims hkgrow_mex.cpp   % compile the mex file 
+$ HK
+```
+### run PR algorithm
+```
+$ cd baseline_codes/PR
+$ matlab 
+$ mex -largeArrayDims pprgrow_mex.cc   % compile the mex file 
+$ PR
+```
 ## Announcements
 ### Licence
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
