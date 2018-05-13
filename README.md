@@ -28,7 +28,7 @@ alpha: a parameter controls local minimal conductance (default: 1.03)
 ## How to run baseline algorithms
 ### run LOSP algorithm
 ```
-$ cd LOSP_codes 
+$ cd baseline_codes/LOSP
 $ matlab 
 $ LOSP
 ```
